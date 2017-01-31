@@ -22,6 +22,27 @@ img {
     border-color: rgb(84,87,91);
 }
 
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td.middle {
+    width: 600px;
+}
+
+img.frontimages {
+    border-image: 10;
+}
+
+p.center {
+    text-align: center;
+}
+
+img.left {
+    float: left;
+}
+
 #page-header {
     text-align: center;
     font-size: 2.0em;
