@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(88,109,104);
+    font-family: monospace;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+img {
+    border-color: rgb(84,87,91);
+}
+
+#page-header {
+    text-align: center;
+    font-size: 2.0em;
+    font-weight: bold;
+    font-family: "Helvetica";
+    color: rgb(55,61,57);
+}
+
+#page-title {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: cursive;
+}
+
+#navigation {
+    line-height: 1.5em;
+    vertical-align: top;
+    table-layout: auto;
+    font-family: "Helvetica";
+}
+
+#areaparks {
+    text-align: center;
+}
+
+#contact {
+    font-family: "Helvetica";
+    font-size: 0.5em;
+}
