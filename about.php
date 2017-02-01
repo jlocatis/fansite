@@ -1,25 +1,17 @@
-<!DOCTYPE html>
-<head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	
-	<title>Hiking trails around Omaha, NE: About Me</title>
-	
-</head>
+<?php $title = 'About Me'; ?>
+<?php $currentPage = 'About Me'; ?>
+<?php include('header.php'); ?>
 
 <body>
 	<p id="page-header">Hiking trails around Omaha, NE</p>
 	
-	<p id="page-title">About Me</p>
+	<p id="page-title"><?php print $title ?></p>
 	
 	<table class="center">
 		<tbody>
 			<tr>
 				<td id="navigation">
-					<strong>Navigation</strong><br>
-					<a href="/index.html">Home</a><br>
-					<a href="/areaparks.html">Area Parks</a><br>
-					<a href="/external-links.html">External Links</a><br>
-					<a href="/about.html">About This Page</a><br>
+					<?php include('menu.php'); ?>
 				</td>
 				<td class="middle">
 					<p><img src="/pictures/me.jpg" class="left" width="200" alt="Me!">My name is Jamie Locatis, and this fall I made a goal to visit as many parks as possible around the Omaha Metropolitan Area.</p>
@@ -31,4 +23,4 @@
 		</tbody>
 	</table>
 	
-<?php include('footer.php' ?>)
+<?php include('footer.php'); ?>

@@ -15,7 +15,10 @@ a:visited {
 
 a:hover {
     color: red;
-    font-weight: bold;
+}
+
+a:active {
+    color: black;
 }
 
 img {
@@ -29,10 +32,17 @@ table.center {
 
 td.middle {
     text-align: center;
+    width: 700px;
+
+}
+
+td.middlelinks {
+    text-align: center;
+    width: 300px;
 }
 
 img.frontimages {
-    border-image: 10;
+    border-image: 10px;
 }
 
 p.center {
@@ -41,6 +51,10 @@ p.center {
 
 img.left {
     float: left;
+}
+
+table {
+    table-layout: fixed;
 }
 
 #page-header {
@@ -60,8 +74,8 @@ img.left {
 #navigation {
     line-height: 1.5em;
     vertical-align: top;
-    table-layout: auto;
     font-family: "Helvetica";
+    width: 125px;
 }
 
 #areaparks {
@@ -71,4 +85,8 @@ img.left {
 #contact {
     font-family: "Helvetica";
     font-size: 0.5em;
+}
+
+.currentpage {
+    font-weight: bold;
 }
