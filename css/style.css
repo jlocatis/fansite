@@ -18,11 +18,11 @@ a:hover {
 }
 
 a:active {
-    color: black;
+    color: green;
 }
 
 img {
-    border-color: rgb(84,87,91);
+    border-radius: 10px;
 }
 
 table.center {
@@ -33,16 +33,10 @@ table.center {
 td.middle {
     text-align: center;
     width: 700px;
-
-}
-
-td.middlelinks {
-    text-align: center;
-    width: 300px;
 }
 
 img.frontimages {
-    border-image: 10px;
+    border: 5px solid grey;
 }
 
 p.center {
@@ -57,11 +51,36 @@ table {
     table-layout: fixed;
 }
 
+td.navigation {
+    text-align: center;
+    line-height: 1.5em;
+    vertical-align: top;
+    font-family: "Helvetica";
+    width: 125px;
+    background-color: black;
+    border-color: rgb(84,97,91);
+    border-radius: 25px;
+}
+
+.navigation a:link {
+    color: rgb(114, 84, 18);
+    text-decoration: none;
+}
+
+.navigation a:visited {
+    color: rgb(114, 84, 18);
+    text-decoration: none;
+}
+
+.currentpage {
+    font-weight: bold;
+}
+
 #page-header {
     text-align: center;
-    font-size: 2.0em;
+    font-size: 3.0em;
     font-weight: bold;
-    font-family: "Helvetica";
+    font-family: "Open Sans";
     color: rgb(55,61,57);
 }
 
@@ -71,22 +90,13 @@ table {
     font-family: cursive;
 }
 
-#navigation {
-    line-height: 1.5em;
-    vertical-align: top;
-    font-family: "Helvetica";
-    width: 125px;
-}
-
-#areaparks {
-    text-align: center;
-}
-
 #contact {
     font-family: "Helvetica";
     font-size: 0.5em;
 }
 
-.currentpage {
-    font-weight: bold;
+#get_outside {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: cursive;
 }
